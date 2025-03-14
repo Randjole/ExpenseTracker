@@ -47,6 +47,8 @@ class Expense():
                 print('Try again')
 
 
+
+
     def view_exp(self):
 
         if len(list_exp) == 0:
@@ -61,8 +63,6 @@ class Expense():
                     
 
 
-
-    
 
 
     def main(self):
@@ -81,20 +81,6 @@ class Expense():
                 exp.activate_exp()
             if enter == '2':
                 exp.view_exp()
-
-
-
-
-
-
-
-
-        
-
-
-
-
-
 
 
 
